@@ -1,0 +1,18 @@
+.img--logo{
+    padding-bottom: 20px;
+}
+
+
+@media (min-width: 1024px){
+.img--frame{
+width: auto;
+
+}
+.img--logo{
+    padding-bottom: 0;
+}
+.img--avatar{
+    width: auto;
+}
+
+}

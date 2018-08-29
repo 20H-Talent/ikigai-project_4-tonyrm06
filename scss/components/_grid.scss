@@ -1,0 +1,151 @@
+.grid__row{
+    width: 100%;
+    height: 10%;
+    clear: both;
+    margin-top: 10.5%;
+    margin-bottom: 2.5%
+}
+
+
+
+
+
+.grid__col--3.theme__colors,
+.grid__col--8.theme__colors,
+.grid__col--7,
+.grid__col--12.theme__colors,
+.grid__col--6.theme__colors,
+.grid__col--4.theme__colors,
+.grid__col--5{
+    padding: 4% 0% 4% 0%;
+    border-radius: 4px;
+    margin: 9px 0px;
+    text-align: left;
+    width: 100%;
+}
+.grid__col--3{
+    text-align: center;
+}
+
+.grid__col--8{
+    width: 100%;
+}
+
+.grid__col--12{
+    width: 97%;
+    margin-left: 2%;
+}
+
+
+
+
+
+//color Grid System
+.grid__col--12.theme__colors{
+    background-color: $color-12
+    }
+.grid__col--6.theme__colors{
+    background-color: $color-6
+    }
+.grid__col--5.theme__colors{
+    background-color: $color-5
+    }
+.grid__col--3.theme__colors{
+    background-color: $color-3
+    }
+.grid__col--4.theme__colors{
+    background-color: $color-4
+    }
+.grid__col--8.theme__colors{
+    background-color: $color-8
+    }
+.grid__col--7.theme__colors{
+    background-color: $color-7;
+    }
+
+    
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 1024px){
+    .grid__col--12{
+        width: 100%;
+        margin-left: 0;
+    }
+.grid__row{
+    display: flex;
+    flex-direction: row;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+.grid__col--3.theme__colors{
+    width: 25%;
+}
+.grid__col--6{
+    width: 49.5%;
+}
+
+.grid__col--4.theme__colors{
+    width: 33.33333333333333%;
+}
+.grid__col--8.theme__colors{
+    width: 66.66666666666667%
+}
+.grid__col--7.theme__colors{
+    width: 59%;
+}
+.grid__col--5.theme__colors{
+    width: 41%;
+}
+
+.grid__col--3.theme__colors,
+.grid__col--8.theme__colors,
+.grid__col--7,
+.grid__col--12.theme__colors,
+.grid__col--6.theme__colors,
+.grid__col--4.theme__colors,
+.grid__col--5{
+    padding: 1% 0 1% 0;
+    margin: 0 6px;
+    text-align: center;
+}
+.centered{
+  margin: 0 auto;
+}
+
+.grid__col--8{
+    width: 66.66666666666667%;
+}
+    .grid__col--9{
+    width: 75%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+          nav{
+            width: 80%;
+            margin: 0 auto
+          }
+    }
+
+    .grid__col--3{
+     width:30%
+    }
+
+}
+
+@media (min-width: 1400px){
+    .grid__col--9{
+              nav{
+                width: 65%;
+              }
+        }
+    
+}

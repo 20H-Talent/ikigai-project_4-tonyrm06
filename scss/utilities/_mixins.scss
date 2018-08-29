@@ -1,0 +1,45 @@
+///////////////////////////////////
+/////////////BTN//////////////////
+/////////////////////////////////
+@mixin btn ($margin, $padding){
+    border: 0;
+    border-radius: 4px;
+    text-transform: uppercase;
+    width: 100%;
+    margin: $margin;
+    padding: $padding;
+
+}
+
+.btn--default.theme__colors[type="submit"]{
+    @include btn(8% 0 0 0,3% 6% 3% 3%);
+}
+
+.btn--default.theme__colors,
+.btn--warning,
+.btn--info,
+.btn--error,
+.btn--success{
+    @include btn(6% 0 0 0,4% 5% 4% 4%);
+    color: white;
+}
+
+///////////////////////////////////
+/////////////IMG//////////////////
+/////////////////////////////////
+@mixin img ($width){
+    padding: 12.5px;
+    border:  0.5px  solid white;
+    display:block;
+    margin:auto;
+    width: $width;
+}
+
+.img--avatar{
+    @include img(40%);
+}
+
+.img--frame{
+    @include img(100%);
+    border:0.5px  solid black;
+}

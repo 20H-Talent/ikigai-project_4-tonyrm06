@@ -1,0 +1,30 @@
+
+
+.form{
+    margin: 0 auto;
+}
+
+
+
+.form__label--hidden{
+    display: none;
+}
+.form__input{
+    width: 90%;
+    border-bottom: solid  $color-12;
+    padding:  2% 0 2.5% 2.5%;
+    border-width: 0 0 5px 0;
+    display:block;
+    margin:auto;
+    font-weight: bold
+}
+.form__input::placeholder{
+    color:rgb(75,75 ,75)
+}
+@media (min-width: 1024px){
+
+.form{
+    width: 300px;
+}
+
+}
